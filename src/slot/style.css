@@ -1,0 +1,18 @@
+.nav-bar{
+    display: flex;
+    text-align: center;
+    line-height: 40px;
+    height: 40px;
+}
+.left,.right{
+    width: 80px;
+    background-color: red;
+}
+.center{
+    flex:1;
+    background-color: yellow;
+}
+.h1,h2,body{
+    margin: 0;
+    padding: 0;
+}

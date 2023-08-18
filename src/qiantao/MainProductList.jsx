@@ -9,7 +9,7 @@ export class MainProductList extends Component {
         <h2>商品类型</h2>
         <ul>
           {proList.map(item=>{
-            return <li key={item}>{item}</li>
+            return <li key={item.acm}>{item.title}</li>
           })}
         </ul>
         <h2>商品列表</h2>
