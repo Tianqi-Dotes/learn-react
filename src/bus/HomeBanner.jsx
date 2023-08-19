@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
+import eventBus from './utils/event-bus'
 
 export class HomeBanner extends Component {
 
     pre(){
-
+      eventBus.emit("bannerPre",18,1.88)
     }
     next(){
-
+      eventBus.emit("bannerNext",18,1.88)
     }
 
   render() {
