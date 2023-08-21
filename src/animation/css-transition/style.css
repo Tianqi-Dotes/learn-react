@@ -1,0 +1,26 @@
+/* 展示动画 */
+.why-appear,.why-enter{
+    opacity: 0;
+}
+.why-appear-active,.why-enter-active{
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+/* 消失动画 */
+.why-exist{
+    opacity: 1;
+}
+.why-exit-active{
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+/* 第一次展示 */
+/* .why-apper{
+    transform: translateX(-150px);
+}
+.why-apper-active{
+    transform: translateX(0);
+    transition: opacity 2s ease;
+
+} */
