@@ -6,7 +6,9 @@ import ReactDOM   from "react-dom/client"
 //import App from './form/App'
 //import App from './portals/App'
 //import App from "./animation/App"
-import App from "./animation/switch-transition/App"
+//import App from "./animation/switch-transition/App"
+//import App from     './css-in-js/App'
+import App from './redux2/App'
 
 const root = ReactDOM.createRoot(document.querySelector("#root"))
 root.render(<App/>)
