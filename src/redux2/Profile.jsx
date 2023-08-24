@@ -3,10 +3,7 @@ import store from './models'
 import {changeCounterAction} from './models/actionCreator'
 
 export class Profile extends PureComponent {
-  constructor(){
-    super()
-    
-  }
+
   minus(num){
     store.dispatch(changeCounterAction(num))
   }
